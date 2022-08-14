@@ -536,6 +536,7 @@
 				DEVELOPMENT_TEAM = 6A5X7JBF46;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BMMainApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = XBike;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Show your location on the map";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Show your location on the map";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your location on the map";
@@ -567,6 +568,7 @@
 				DEVELOPMENT_TEAM = 6A5X7JBF46;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BMMainApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = XBike;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Show your location on the map";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Show your location on the map";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your location on the map";

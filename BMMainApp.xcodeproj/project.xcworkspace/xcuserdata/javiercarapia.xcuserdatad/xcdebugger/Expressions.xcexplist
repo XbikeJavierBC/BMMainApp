@@ -27,6 +27,17 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "BKDetailProgressViewController.drawPolyline(coordinateList:model:):BKDetailProgressViewControllerMapExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mutablePath">
+            </PersistentString>
+            <PersistentString
+               value = "self.mutablePath.count()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "BKRideViewModel.appendMetersToRoute(location:):BKRideViewModel.swift">
          <PersistentStrings>
             <PersistentString

@@ -14,8 +14,8 @@
             filePath = "../../dependencies/apis/bkrideapi/Sources/bkrideapi/module/view/currentRade/extension/BKCurrentRadeViewControllerControlExtension.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "didStopSelect(view:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "../../dependencies/apis/bkrideapi/Sources/bkrideapi/module/view/currentRade/extension/BKCurrentRadeViewControllerControlExtension.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "didStoreSelect(view:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "../../dependencies/apis/bkrideapi/Sources/bkrideapi/module/view/currentRade/extension/BKCurrentRadeViewControllerControlExtension.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "didDeleteSelect(view:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,9 +62,25 @@
             filePath = "../../dependencies/apis/bkrideapi/Sources/bkrideapi/module/view/currentRade/extension/BKCurrentRadeViewControllerControlExtension.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "didAceptSelect(view:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E8E8EE3-0576-4F2E-BC85-63BFCE81CD19"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../dependencies/apis/bkrideapi/Sources/bkrideapi/module/view/detailProgress/extension/BKDetailProgressViewControllerMapExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "drawPolyline(coordinateList:model:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

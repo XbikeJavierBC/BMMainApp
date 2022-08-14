@@ -1,6 +1,60 @@
 {
   "pins" : [
     {
+      "identity" : "bkdashboardapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XbikeJavierBC/bkdashboardapi.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "118657535b887c4ab4061218d1f13a906b7bef80"
+      }
+    },
+    {
+      "identity" : "bkdomauncore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XbikeJavierBC/bkdomauncore.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "487aa115d5ed90ae7850a9fc61c8c9e6c163b385"
+      }
+    },
+    {
+      "identity" : "bklocalrepositorycore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XbikeJavierBC/bklocalrepositorycore.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f095230f9b0eed3655ececfea8d59f053fbc12ff"
+      }
+    },
+    {
+      "identity" : "bkonboardingapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XbikeJavierBC/bkonboardingapi.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9e1255c63299e9fe07a6b63a930bfbddc62b11ca"
+      }
+    },
+    {
+      "identity" : "bkrideapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XbikeJavierBC/bkrideapi.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "36f3c997878420a5b6cce4e9c8b2a5bb927f2431"
+      }
+    },
+    {
+      "identity" : "bksdkcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XbikeJavierBC/bksdkcore.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "681f6265b530bee898f5c5924e3d068ffc8bf2c9"
+      }
+    },
+    {
       "identity" : "ghgungnircore",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/XbikeJavierBC/ghgungnircore.git",
@@ -19,12 +73,48 @@
       }
     },
     {
+      "identity" : "ghvultangcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XbikeJavierBC/ghvultangcore.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9db051e2f1d9f92099a78af8c8df3ab662f4bbc4"
+      }
+    },
+    {
+      "identity" : "googlemaps-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/YAtechnologies/GoogleMaps-SP.git",
+      "state" : {
+        "revision" : "0e4d95a5844c2a40381bf659fff84cf66699e17b",
+        "version" : "6.0.0"
+      }
+    },
+    {
       "identity" : "iqkeyboardmanager",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/hackiftekhar/IQKeyboardManager.git",
       "state" : {
         "branch" : "master",
         "revision" : "c0b5dbc3da5b0920b965b502c0b9be9e55156c71"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core",
+      "state" : {
+        "revision" : "2b8def17bb8e0cddbcc754db6b6466b8487feebf",
+        "version" : "12.5.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "d949715c09767dbe1b9924a2d187624811fc5cd9"
       }
     },
     {

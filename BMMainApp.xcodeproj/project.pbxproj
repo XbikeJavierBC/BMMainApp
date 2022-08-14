@@ -20,6 +20,10 @@
 		922A5D3928A8CEE5001E55BA /* GHGlobalConfig-info.json in Resources */ = {isa = PBXBuildFile; fileRef = 922A5D3828A8CEE5001E55BA /* GHGlobalConfig-info.json */; };
 		922A5D3C28A8D02F001E55BA /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 922A5D3B28A8D02F001E55BA /* IQKeyboardManagerSwift */; };
 		922A5D3F28A8D05D001E55BA /* bkonboardingapi in Frameworks */ = {isa = PBXBuildFile; productRef = 922A5D3E28A8D05D001E55BA /* bkonboardingapi */; };
+		922A5D4628A8F00B001E55BA /* bkrideapi in Frameworks */ = {isa = PBXBuildFile; productRef = 922A5D4528A8F00B001E55BA /* bkrideapi */; };
+		922A5D4A28A8F181001E55BA /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 922A5D4928A8F181001E55BA /* GoogleMaps */; };
+		922A5D4C28A8F181001E55BA /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 922A5D4B28A8F181001E55BA /* GooglePlaces */; };
+		92BD844928A9878A0080CB12 /* bkdashboardapi in Frameworks */ = {isa = PBXBuildFile; productRef = 92BD844828A9878A0080CB12 /* bkdashboardapi */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +59,7 @@
 		922A5D3328A8CE74001E55BA /* AppDelegateKeyBoardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateKeyBoardExtension.swift; sourceTree = "<group>"; };
 		922A5D3528A8CE95001E55BA /* AppDelegateNavStyleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateNavStyleExtension.swift; sourceTree = "<group>"; };
 		922A5D3828A8CEE5001E55BA /* GHGlobalConfig-info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "GHGlobalConfig-info.json"; sourceTree = "<group>"; };
-		922A5D4128A8D0A9001E55BA /* bkonboardingapi */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = bkonboardingapi; path = ../../dependencies/apis/bkonboardingapi; sourceTree = "<group>"; };
-		922A5D4228A8D0C0001E55BA /* bksdkcore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = bksdkcore; path = ../../sdk/bksdkcore; sourceTree = "<group>"; };
+		922A5D4328A8E706001E55BA /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +67,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922A5D4A28A8F181001E55BA /* GoogleMaps in Frameworks */,
 				922A5D3C28A8D02F001E55BA /* IQKeyboardManagerSwift in Frameworks */,
 				922A5D3F28A8D05D001E55BA /* bkonboardingapi in Frameworks */,
+				92BD844928A9878A0080CB12 /* bkdashboardapi in Frameworks */,
+				922A5D4C28A8F181001E55BA /* GooglePlaces in Frameworks */,
+				922A5D4628A8F00B001E55BA /* bkrideapi in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +206,6 @@
 		922A5D4028A8D0A9001E55BA /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				922A5D4128A8D0A9001E55BA /* bkonboardingapi */,
-				922A5D4228A8D0C0001E55BA /* bksdkcore */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -224,6 +229,10 @@
 			packageProductDependencies = (
 				922A5D3B28A8D02F001E55BA /* IQKeyboardManagerSwift */,
 				922A5D3E28A8D05D001E55BA /* bkonboardingapi */,
+				922A5D4528A8F00B001E55BA /* bkrideapi */,
+				922A5D4928A8F181001E55BA /* GoogleMaps */,
+				922A5D4B28A8F181001E55BA /* GooglePlaces */,
+				92BD844828A9878A0080CB12 /* bkdashboardapi */,
 			);
 			productName = BMMainApp;
 			productReference = 922A5CF528A8CD50001E55BA /* BMMainApp.app */;
@@ -295,11 +304,15 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 922A5CEC28A8CD50001E55BA;
 			packageReferences = (
 				922A5D3A28A8D02F001E55BA /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				922A5D3D28A8D05D001E55BA /* XCRemoteSwiftPackageReference "bkonboardingapi" */,
+				922A5D4428A8F00B001E55BA /* XCRemoteSwiftPackageReference "bkrideapi" */,
+				922A5D4828A8F181001E55BA /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */,
+				92BD844728A9878A0080CB12 /* XCRemoteSwiftPackageReference "bkdashboardapi" */,
 			);
 			productRefGroup = 922A5CF628A8CD50001E55BA /* Products */;
 			projectDirPath = "";
@@ -389,6 +402,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				922A5D0428A8CD50001E55BA /* Base */,
+				922A5D4328A8E706001E55BA /* es-419 */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -400,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -460,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -517,14 +533,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K36NPWS843;
+				DEVELOPMENT_TEAM = 6A5X7JBF46;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BMMainApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Show your location on the map";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Show your location on the map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your location on the map";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -545,14 +563,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K36NPWS843;
+				DEVELOPMENT_TEAM = 6A5X7JBF46;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BMMainApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Show your location on the map";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Show your location on the map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your location on the map";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -700,6 +720,30 @@
 				kind = branch;
 			};
 		};
+		922A5D4428A8F00B001E55BA /* XCRemoteSwiftPackageReference "bkrideapi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/XbikeJavierBC/bkrideapi.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		922A5D4828A8F181001E55BA /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/YAtechnologies/GoogleMaps-SP.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		92BD844728A9878A0080CB12 /* XCRemoteSwiftPackageReference "bkdashboardapi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/XbikeJavierBC/bkdashboardapi.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -712,6 +756,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 922A5D3D28A8D05D001E55BA /* XCRemoteSwiftPackageReference "bkonboardingapi" */;
 			productName = bkonboardingapi;
+		};
+		922A5D4528A8F00B001E55BA /* bkrideapi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 922A5D4428A8F00B001E55BA /* XCRemoteSwiftPackageReference "bkrideapi" */;
+			productName = bkrideapi;
+		};
+		922A5D4928A8F181001E55BA /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 922A5D4828A8F181001E55BA /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */;
+			productName = GoogleMaps;
+		};
+		922A5D4B28A8F181001E55BA /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 922A5D4828A8F181001E55BA /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */;
+			productName = GooglePlaces;
+		};
+		92BD844828A9878A0080CB12 /* bkdashboardapi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92BD844728A9878A0080CB12 /* XCRemoteSwiftPackageReference "bkdashboardapi" */;
+			productName = bkdashboardapi;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

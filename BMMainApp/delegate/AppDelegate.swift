@@ -6,7 +6,9 @@
 //
 
 import UIKit
+import ghgungnircore
 import ghmjolnircore
+import bksdkcore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,5 +26,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.setGoogleConfig()
         
         return true
+    }
+    
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        print("🎃 applicationDidBecomeActive")
+        
+        guard let controlerType = self.controllerManager?.getLastVcPresented() else {
+            return
+        }
+        
+        if controlerType.type == BKApiFlow.currentRide.rawValue,
+            let validateUIController = controlerType.ctrDel as? BKValidateUIProtocol {
+            print("🎃 \(controlerType)")
+            validateUIController.validateUI()
+        }
     }
 }

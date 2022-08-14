@@ -6,13 +6,14 @@
 //
 
 import UIKit
-//import smsdkcore
+import bksdkcore
 
 //MARK: ::: STYLE CONFIG :::
 extension AppDelegate {
     func setAppStyle() {
-//        SMAppStyle.setCacheSystemAppStyle()
-//        SMAppStyle.setNavigationStyle()
-//        SMAppStyle.setTabBarStyle()
+        BKAppStyle.setTabBarStyle(
+            color: .oragenColor, font: .abelRegular15
+        )
+        BKAppStyle.setNavigationStyle()
     }
 }

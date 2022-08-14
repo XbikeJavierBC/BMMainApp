@@ -6,13 +6,13 @@
 //
 
 import UIKit
-//import GooglePlaces
-//import GoogleMaps
+import GooglePlaces
+import GoogleMaps
 
 //MARK: ::: GOOGLE CONFIG :::
 extension AppDelegate {
     func setGoogleConfig() {
-//        GMSServices.provideAPIKey("NO_API_PROD")
-//        GMSPlacesClient.provideAPIKey("NO_API_PROD")
+        GMSServices.provideAPIKey("AIzaSyDvU2Wm36PR-7Oo03qzn6UwHjgjD9w4zqo")
+        GMSPlacesClient.provideAPIKey("AIzaSyDvU2Wm36PR-7Oo03qzn6UwHjgjD9w4zqo")
     }
 }

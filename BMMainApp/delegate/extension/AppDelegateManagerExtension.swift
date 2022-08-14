@@ -10,6 +10,8 @@ import ghmjolnircore
 
 import bksdkcore
 import bkonboardingapi
+import bkrideapi
+import bkdashboardapi
 
 //MARK: ::: MANAGER CONFIG :::
 extension AppDelegate {
@@ -22,6 +24,8 @@ extension AppDelegate {
         
         BKSdkApiManager.shared
             .registerApi(BKOnBoardingRegisterApi.self)
+            .registerApi(BKRideRegisterApi.self)
+            .registerApi(BKDashboardRegisterApi.self)
             .build()
         
         if let manager = self.controllerManager {

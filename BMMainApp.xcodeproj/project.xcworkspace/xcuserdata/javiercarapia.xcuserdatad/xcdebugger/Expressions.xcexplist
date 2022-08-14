@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in BKMapsManager.getCurrentPlace(closure:):BKMapsManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "place.formattedAddress">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BKCurrentRadeViewController.trackLocation.didset:BKCurrentRadeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.rideViewModelProtocol?.coordinateListLiveData.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in BKCurrentRadeViewController.setupMaps():BKCurrentRadeViewControllerMapExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "map.myLocation?.coordinate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BKRideViewModel.appendMetersToRoute(location:):BKRideViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.coordinateListLiveData.value.last">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

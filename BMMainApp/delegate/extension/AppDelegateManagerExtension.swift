@@ -8,6 +8,8 @@
 import UIKit
 import ghmjolnircore
 
+import bklocalrepositorycore
+
 import bksdkcore
 import bkonboardingapi
 import bkrideapi
@@ -35,8 +37,12 @@ extension AppDelegate {
             self.setAppStyle()
 
             manager.presentNavigationViewController(
-                managerModel: try! BKApiFlow.onboarding.modelManager
+                managerModel: try! !BKFlagsLocalRepository.showOnboarding
+                    ? BKApiFlow.onboarding.modelManager
+                    : BKApiFlow.dashboard.modelManager
             )
+            
+            BKFlagsLocalRepository.showOnboarding = true
         }
     }
 }
